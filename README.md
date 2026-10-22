@@ -31,9 +31,10 @@ Explore a cohesive pastel-inspired desktop experience with custom artwork and in
 Manage preferences, diary entries, and progress through the settings interface.
 
 ---
-### 🖼️ Application Screenshots
+### 🖼️ Application design
 
-![Uploading ChatGPT Image Oct 7, 2026, 02_32_43 PM.png…]()
+<img width="1055" height="1491" alt="Lumi_poster" src="https://github.com/user-attachments/assets/830a064b-cc57-4e57-9378-730c1995ee6e" />
+
 
 
 ## 🛠️ Technologies
