@@ -31,6 +31,9 @@ Explore a cohesive pastel-inspired desktop experience with custom artwork and in
 Manage preferences, diary entries, and progress through the settings interface.
 
 ---
+### 🖼️ Application Screenshots
+
+![Uploading ChatGPT Image Oct 7, 2026, 02_32_43 PM.png…]()
 
 
 ## 🛠️ Technologies
