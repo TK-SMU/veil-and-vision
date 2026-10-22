@@ -1,26 +1,161 @@
-# Veil & Vision — submission/demo
+# 🌙 Veil & Vision
 
-## Run
+### A cosy, pastel pixel-art journey of reflection and self-discovery
 
-Keep this entire project folder together. Run **main.py** with Python 3.10 or newer and Tkinter:
+**Veil & Vision** is an interactive Python desktop application that combines tarot-inspired storytelling, character customisation, and personal reflection in a dreamy pixel-art environment.
 
-```sh
+Guided by **Lumi**, a friendly companion, users can explore card readings, choose meaningful Little Steps, and record their experiences in a personal Moon Diary.
+
+The project brings together creative interface design, interactive storytelling, and Python programming.
+
+---
+
+## ✨ Features
+
+### 🌙 Meet Lumi — Your Personal Companion
+Customise Lumi with different hats, accessories, buddies, and backgrounds. Your selections are saved so Lumi can accompany you throughout your experience.
+
+### 🔮 Interactive Three-Card Reading
+Choose and reveal three cards, explore their individual meanings, and receive an overall reading.
+
+### 🌱 Little Steps
+Turn a reading into a small, meaningful action through the Little Step feature.
+
+### 📖 Moon Diary
+Save readings and reflections locally and revisit previous experiences.
+
+### 🎨 Cosy Pixel-Art Interface
+Explore a cohesive pastel-inspired desktop experience with custom artwork and interactive elements.
+
+### ⚙️ Settings & Personalisation
+Manage preferences, diary entries, and progress through the settings interface.
+
+---
+
+
+## 🛠️ Technologies
+
+| Technology | Purpose |
+|---|---|
+| Python 3.10+ | Application logic |
+| Tkinter | Desktop graphical user interface |
+| Tkinter Canvas | Artwork display and interface composition |
+| JSON | Local data persistence |
+| GitHub | Source code hosting and project documentation |
+
+**No API keys or internet services are required.**
+
+---
+
+## 🚀 Installation & Running
+
+### Requirements
+
+- Python 3.10 or newer
+- Tkinter
+- A compatible desktop environment
+
+The application has been tested on macOS using native Python 3.13 with Tkinter.
+
+### Run with Python
+
+Keep the complete project folder together, including all artwork and asset files.
+
+Open a terminal in the project folder and run:
+
+```bash
 python3 main.py
 ```
 
-On macOS, you can also double-click `run_veil_vision.command`. The tested interpreter is native Python 3.13 with Tkinter. Assets are separate files bundled in this folder; do not submit only the Python entry point. No API key or internet service is used.
+### Run on macOS
 
-Close older Veil & Vision windows before opening an updated copy.
+You can also launch the application using:
 
-## Demo flow
+`run_veil_vision.command`
 
-Intro → Customize → Intention → Reveal three cards → Continue → Your Cards → Card Meaning → Overall Reading → Little Step → Save → Moon Diary → Follow-up → Settings → New Reading.
+Close older Veil & Vision windows before opening an updated version.
 
-The client window, shared container and Canvas are 761 × 740 on all twelve pages. Artwork is fitted proportionally, so shorter compositions retain surrounding background space. Page 4 keeps its fixed night artwork.
+**Important:** Do not download or move only `main.py`. The application depends on additional Python modules and artwork assets.
 
-Readings and preferences are stored locally in `data/moon_diary.json`. New Reading keeps diary entries. Clear Diary and Reset Progress ask for confirmation. Reset Progress preserves diary entries.
+---
 
-## Page 2 reconstructed Lumi layers
+## 🗺️ Application Journey
 
-Page 2 uses a newly reconstructed transparent Lumi sprite, with separate existing hat, accessory, buddy and background assets. Choices update the preview and persist. None removes that category's layer. This is an approximation of the original flattened character, not a pixel-identical recovery of the hidden head/neck. Original artwork files remain intact; other pages retain their original Lumi.
+The interactive experience follows this sequence:
+
+Intro → Customize → Intention → Reveal Three Cards → Continue → Your Cards → Card Meaning → Overall Reading → Little Step → Save → Moon Diary → Follow-up → Settings → New Reading
+
+---
+
+## 💾 Local Data & Privacy
+
+Veil & Vision stores readings and preferences locally in:
+
+`data/moon_diary.json`
+
+- Saved diary entries remain available when starting a New Reading.
+- Clear Diary requests confirmation before deleting diary entries.
+- Reset Progress requests confirmation and preserves diary entries.
+- The application does not require an online account or external API.
+
+---
+
+## 🎨 Interface & Character Design
+
+The application uses a consistent **761 × 740** window, shared container, and Canvas across its twelve pages.
+
+Artwork is proportionally fitted to preserve the original compositions. Page 4 retains its fixed night artwork.
+
+### Lumi Customisation
+
+Page 2 features a reconstructed transparent Lumi sprite with separate layers for hats, accessories, buddies, and backgrounds.
+
+- Customisation choices update the preview.
+- Selected options persist.
+- Choosing None removes the corresponding optional layer.
+- The reconstructed sprite approximates the original flattened artwork.
+- Original artwork files remain intact, and other pages retain their original Lumi.
+
+---
+
+## 💡 Development Goals
+
+This project was created to explore the connection between programming, creativity, and user experience.
+
+Key development areas include:
+
+- Python application development
+- Graphical user interface design
+- Event-driven programming
+- Interactive navigation and state management
+- Local data persistence
+- Modular code organisation
+- Visual consistency and usability
+
+---
+
+## 🌷 Future Improvements
+
+Potential enhancements include:
+
+- Expanded Lumi animations and customisation
+- More interactive reading options
+- Improved personalisation
+- Additional Moon Diary features
+- Accessibility and usability enhancements
+- Cross-platform compatibility improvements
+
+---
+
+## 💜 Project Vision
+
+Veil & Vision explores how software can provide a gentle, imaginative space for reflection.
+
+Through interactive storytelling, thoughtful visual design, and a friendly companion, the application aims to make everyday self-reflection more engaging.
+
+*Sometimes, a little reflection is the beginning of something meaningful.*
+
+---
+
+**Made with Python, creativity
 
