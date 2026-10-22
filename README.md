@@ -1,4 +1,4 @@
-# 🌙 Veil & Vision
+<img width="1118" height="734" alt="Screenshot 2569-10-22 at 17 59 35" src="https://github.com/user-attachments/assets/f4cd1316-ca93-4b64-990f-56602e23c519" /><img width="1536" height="1024" alt="ChatGPT Image Oct 7, 2026, 02_32_43 PM" src="https://github.com/user-attachments/assets/583276a8-d57f-4065-8866-22a81267aaad" /># 🌙 Veil & Vision
 
 ### A cosy, pastel pixel-art journey of reflection and self-discovery
 
@@ -31,7 +31,8 @@ Explore a cohesive pastel-inspired desktop experience with custom artwork and in
 Manage preferences, diary entries, and progress through the settings interface.
 
 ---
-### 🖼️ Application design
+### 🖼️ Application Design
+
 
 <img width="1055" height="1491" alt="Lumi_poster" src="https://github.com/user-attachments/assets/830a064b-cc57-4e57-9378-730c1995ee6e" />
 
